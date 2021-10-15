@@ -1,0 +1,7 @@
+print('Receba um número e exiba o seu dobro, triplo e raiz quadrada')
+n1=int(input('Informe um número:'))
+print('¨¨¨'*20)
+print('O dobro de {} é:{}'.format(n1,n1*2))
+print('O triplo de {} é:{}'.format(n1,n1*3))
+print('[POW] A raiz quadrada de {} é:{}'.format(n1,pow(n1,1/2)))
+print('A raiz quadrada de {} é:{:.2f}'.format(n1,n1**(1/2)))

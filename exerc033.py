@@ -1,0 +1,13 @@
+print('-==-'*50)
+print('MAIOR E MENOR VALORES')
+print('-==-'*50)
+n1 = float(input('Informe o 1º número: '))
+n2 = float(input('Informe o 2º número: '))
+n3 = float(input('Informe o 3º número: '))
+ordena_numeros = [n1,n2,n3]
+ordena_numeros.sort(reverse=True)
+print(ordena_numeros)
+print('O MENOR número é {} e o MAIOR número é {}'.format(ordena_numeros[-1],ordena_numeros[0]))
+print('\n')
+print('O maior valor digitado foi {}'.format(max(ordena_numeros)))
+print('O menor numero digitado foi {}'.format(min(ordena_numeros)))
